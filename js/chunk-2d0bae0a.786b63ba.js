@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0bae0a"],{"38a0":function(e,n,a){"use strict";a.r(n);var t=function(){var e=this,n=e.$createElement,a=e._self._c||n;return a("div")},c=[],r={name:"AirRate"},u=r,i=a("2877"),s=Object(i["a"])(u,t,c,!1,null,"4059f195",null);n["default"]=s.exports}}]);
+//# sourceMappingURL=chunk-2d0bae0a.786b63ba.js.map
