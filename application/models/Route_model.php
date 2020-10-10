@@ -11,16 +11,16 @@ class Route_model extends CI_Model
 
 	public function addflight($flightData)
 	{
-		$qry = "INSERT INTO t_route VALUES (
-0,
-'$flightData->flightNo',
-'$flightData->flightPOL',
-'$flightData->flightPOD',
-'$flightData->flightDate',
-'$flightData->flightType',
-'$flightData->flightAirline',
-'$flightData->flightMaxLoad'
-)";
+		$qry = "INSERT INTO t_route VALUES
+				(0,
+				'$flightData->flightPOL',
+				'$flightData->flightPOD',
+				'$flightData->flightNo',
+				'$flightData->flightDate',
+				'$flightData->flightType',
+				'$flightData->flightAirline',
+				'$flightData->flightMaxLoad'
+				)";
 		$res = $this->db->query($qry);
 		return $res;
 	}
