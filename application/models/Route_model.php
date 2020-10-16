@@ -24,4 +24,10 @@ class Route_model extends CI_Model
 		$res = $this->db->query($qry);
 		return $res;
 	}
+
+	public function getflight(){
+		$qry = "SELECT * FROM `t_route`";
+		$res = $this->db->query($qry);
+		return $res;
+	}
 }

@@ -21,4 +21,14 @@ class RouteManage extends CI_Controller {
 //		$arr = array('data'=>'success');
 //		echo(json_encode($arr));
 	}
+
+	public function getflight(){
+		$this->load->model('Route_model','',true);
+		$res=$this->Route_model->getflight()->result();
+		if($res){
+			echo json_encode($res);
+		}
+		else{
+		}
+	}
 }

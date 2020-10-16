@@ -7,9 +7,9 @@ class Home extends CI_Controller {
 
 	public function myHome()
 	{
-	    $this->load->database();
-	    $qry="select * from mytest;";
-	    $query = $this->db->query($qry);
+//	    $this->load->database();
+//	    $qry="select * from mytest;";
+//	    $query = $this->db->query($qry);
 //	    foreach ($query->result() as $row)
 //	    {
 //	        echo $row->id." ";
